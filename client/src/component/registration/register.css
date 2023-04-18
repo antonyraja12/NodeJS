@@ -1,0 +1,10 @@
+.inputs{
+    border: none;
+    border-bottom: 2px solid slateblue ;
+    outline: none;
+}
+td{
+    
+    width: 200px;
+    height: 70px;
+}
