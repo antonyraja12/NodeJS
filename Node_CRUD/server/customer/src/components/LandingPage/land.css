@@ -1,0 +1,32 @@
+.land{
+    background-image: linear-gradient(to right,rgb(57, 145, 161),rgba(15, 192, 157, 0.758));
+    
+    
+min-width: 100%;
+padding: 6%;
+
+}
+.lands{
+    background-image: linear-gradient(to right,rgb(57, 145, 161),rgba(15, 192, 157, 0.758));
+    
+    
+    min-height: 100vh;
+    padding: 6%;
+    
+}
+.land1{
+    
+    color: aqua;
+}
+.search{
+    box-sizing: border-box;
+    width: 60%;
+    height: 25px;
+    border-radius: 20px;
+    
+}
+.wid{
+    width: 10%;
+    border :2px solid black;
+}
+ 
