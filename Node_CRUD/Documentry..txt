@@ -1,0 +1,35 @@
+CRUD Operation Using NodeJS and ReactJS
+---------------------------------------
+
+customer --> React file 
+
+Server -->it Has Node APIs in .js
+
+DataBase --> mySQL
+
+Database creation 
+
+create database datas; --->//database creation,
+
+use datas   ---->// I am going to working on this database,
+table Creation:
+---------------
+create table customer_details  (id int ,name varchar(255),address varchar(255),city varchar(255),pincode long,country varchar(255));
+
+
+End Points:
+-----------
+
+TO Insert data into database -->  /insertdata,
+
+Get Datas from database  ------>  /getalluser,
+
+delete data from Database ----->  /deletecus,
+
+Update  particular data  ------> /edits/:id      --->get the only one user which one can send request to server it send a exact  response to that user,
+				 /updateuser/:id ---> After the updation the values tobe inserted into database again. 
+
+	
+Get single user Description  --> /singledata/:id
+
+	
